@@ -24,10 +24,9 @@ class App extends React.Component {
   render() {
     return (
 
+ //adds the bootstrap navbar
       <Router>
         <div className="App">
-      
- //adds the bootstrap navbar
           <Navbar bg="dark" variant="dark">
             <Container>
               <Navbar.Brand href="/">Book App</Navbar.Brand>
