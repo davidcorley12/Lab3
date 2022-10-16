@@ -27,7 +27,7 @@ class App extends React.Component {
       <Router>
         <div className="App">
       
- //Adds the bootstrap navbar
+ //adds the bootstrap navbar
           <Navbar bg="dark" variant="dark">
             <Container>
               <Navbar.Brand href="/">Book App</Navbar.Brand>
@@ -39,7 +39,7 @@ class App extends React.Component {
             </Container>
           </Navbar>
       
-//Allows the functionality to display differnt pages using the navbar
+//allows the functionality to display differnt pages using the navbar
           <Routes>
             <Route path='/' element={<Content></Content>} exact></Route>
             <Route path='/read' element={<Read/>} exact></Route>
